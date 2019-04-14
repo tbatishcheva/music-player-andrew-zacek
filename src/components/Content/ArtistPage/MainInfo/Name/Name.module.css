@@ -1,0 +1,6 @@
+.name {
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 123px;
+    color: var(--text-color);
+}

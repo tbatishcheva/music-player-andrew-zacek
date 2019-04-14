@@ -1,4 +1,13 @@
 .container {
     grid-area: sidebar;
     background: linear-gradient(180deg, #151B25 0%, #1C212B 100%);
+    padding: 55px 35px calc(var(--player-height) + 55px) 35px;
+}
+
+.menuWrapper {
+    margin-top: 50px;
+}
+
+.playlists {
+    margin-top: 50px;
 }

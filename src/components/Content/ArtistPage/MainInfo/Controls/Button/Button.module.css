@@ -1,0 +1,10 @@
+.button {
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    box-sizing: border-box;
+    border-radius: 17px;
+    background-color: transparent;
+    padding: 7px 20px;
+}

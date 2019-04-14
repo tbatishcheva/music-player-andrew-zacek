@@ -1,0 +1,18 @@
+.tab {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--text-color);
+    border-bottom: 1px solid transparent;
+    margin-right: 40px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.tab:last-child {
+    margin-right: 0;
+}
+
+.activeTab {
+    border-bottom: 1px solid #3191FB;
+}

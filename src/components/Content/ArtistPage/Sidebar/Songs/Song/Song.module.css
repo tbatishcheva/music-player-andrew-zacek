@@ -1,0 +1,41 @@
+.song {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 23px;
+    margin: 0 -23px 10px -23px;
+    cursor: pointer;
+}
+
+.song:last-child {
+    margin-bottom: 0;
+}
+
+.song:hover {
+    background: rgba(24, 30, 40, 0.310377);
+    backdrop-filter: blur(27.1828px);/* Note: backdrop-filter has minimal browser support */
+    border-radius: 4px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--text-color);
+}
+
+.album {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+.duration {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--text-color);
+}
+

@@ -1,0 +1,7 @@
+.container {
+    grid-area: sidebar;
+}
+
+.wrapper {
+    margin-bottom: 20px;
+}

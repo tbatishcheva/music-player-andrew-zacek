@@ -1,0 +1,33 @@
+:root {
+    --bg-color: none;
+    --text-color: none;
+    --bg-width: none;
+    --bg-height: none;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "header header" "main sidebar";
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 35px 1fr;
+    padding: 15px 30px calc(var(--player-height) + 15px) 30px;
+    min-height: 100%;
+
+    background:
+            linear-gradient(to right, var(--bg-color) 0%, var(--bg-color) calc(100% - var(--bg-width)), transparent 80%),
+            linear-gradient(to top, var(--bg-color) 0%, var(--bg-color) calc(100% - var(--bg-height)), transparent 80%);
+
+    animation: fadein 0.4s ease-in-out;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+}

@@ -3,7 +3,7 @@
     mix-blend-mode: normal;
     opacity: 0.93;
     backdrop-filter: blur(11.8394px);
-    height: 62px;
+    height: var(--player-height);
     position: fixed;
     bottom: 0;
     left: 0;
