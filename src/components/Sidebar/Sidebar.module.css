@@ -1,0 +1,4 @@
+.container {
+    grid-area: sidebar;
+    background: linear-gradient(180deg, #151B25 0%, #1C212B 100%);
+}

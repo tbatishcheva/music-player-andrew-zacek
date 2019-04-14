@@ -1,0 +1,7 @@
+.App {
+    display: grid;
+    grid-template-areas: "sidebar content";
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
